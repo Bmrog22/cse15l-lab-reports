@@ -9,11 +9,11 @@ Next is the hard part. First, go to the link https://sdacs.ucsd.edu/~icc/index.p
 
 It may take awhile for your password to work, but when it does you should see something like this ![Image](finally.png)
 
-Congratulations on completing the hard part, now to have fun experimenting with some commands! (try the following: \ncd ~
-\ncd
-\nls -lat
-\nls -a
-\nls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
-\ncp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-\ncat /home/linux/ieng6/cs15lsp23/public/hello.txt
+Congratulations on completing the hard part, now to have fun experimenting with some commands! (try the following: /ncd ~
+/cd
+/ls -lat
+/ls -a
+/ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
+/cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+/cat /home/linux/ieng6/cs15lsp23/public/hello.txt
 ) ![Image](commands.png)
