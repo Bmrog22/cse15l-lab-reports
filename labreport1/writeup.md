@@ -7,4 +7,4 @@ Next, you need to install git from the following link. https://gitforwindows.org
 
 Next is the hard part. First, go to the link https://sdacs.ucsd.edu/~icc/index.php and update your password.  REMEMBER THIS PASSWORD. After you have the password updated, enter ssh and your course specific username / email into the git terminal. Answer yes to the question you are asked and enter your password (it is working, it just does not show.) ![Image](ssh.png)
 
-It may take awhile for your password to work, but when it does you should see something like this ![Image](finally.jpeg)
+It may take awhile for your password to work, but when it does you should see something like this ![Image](finally.png)
