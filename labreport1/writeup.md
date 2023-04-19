@@ -14,7 +14,10 @@ Congratulations on completing the hard part, now to have fun experimenting with 
 
 ![Image](commands.png)
 
-breakdown of commands shown above:\\
+breakdown of commands shown above:\
 
-pwd: pretty straight forward, just prints the working directory\\
-cat: cat serves only to output the contents of hello.txt in this case
+pwd: pretty straight forward, just prints the working directory\
+
+cat: cat serves only to output the contents of hello.txt in this case\
+
+ls -lat: this one is a little more comples to break down. ls by default lists the files in the current working directory, but in this case also outputs a lot of information about the files because of the -l modifier. The a modifier made sure that it displayed all files, even hidden ones. Lastly, the t modifier displayed the filed in order of what was most recently modified.
