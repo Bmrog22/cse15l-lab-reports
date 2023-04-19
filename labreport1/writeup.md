@@ -10,7 +10,7 @@ Next is the hard part. First, go to the [link](https://sdacs.ucsd.edu/~icc/index
 It may take awhile for your password to work, but when it does you should see something like this ![Image](finally.png)
 
 Congratulations on completing the hard part, now to have fun experimenting with some commands! (some possible commands shown below)
-(you can find a list of terminal commands [here](https://www.gnu.org/software/bash/manual/bash.html), but you should be mostly using cd, ls, pwd, mkdir, and cp
+You can find a list of terminal commands [here](https://www.gnu.org/software/bash/manual/bash.html), but you should be mostly using cd, ls, pwd, mkdir, and cp
 
 ![Image](commands.png)
 
