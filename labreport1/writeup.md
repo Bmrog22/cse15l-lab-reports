@@ -10,7 +10,7 @@ Next is the hard part. First, go to the [link]( https://sdacs.ucsd.edu/~icc/inde
 It may take awhile for your password to work, but when it does you should see something like this ![Image](finally.png)
 
 Congratulations on completing the hard part, now to have fun experimenting with some commands! (some possible commands shown below)
-(you can find a list of terminal commands [here] (https://www.logicweb.com/knowledgebase/linux/linux-bash-commands-a-z/#:~:text=A-Z%20Bash%20Command%20Line%20%20%20%20Bash,context-determined%20pie%20...%20%2053%20more%20rows%20), but you should be mostly using cd, ls, pwd, mkdir, and cp
+(you can find a list of terminal commands [here](https://www.gnu.org/software/bash/manual/bash.html), but you should be mostly using cd, ls, pwd, mkdir, and cp
 
 ![Image](commands.png)
 
