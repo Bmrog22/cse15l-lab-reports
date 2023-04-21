@@ -32,18 +32,18 @@ The next part of the lab was to show one of the buggy codes that we fixed. I hav
 This code does not work because it reverses the array twice by iterating over the entire length of the list and flipping the elements continuously. Hence, the following tester will pass despite the bug due to it being symmetrical.
 ```
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input1 = { 3, 5, 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3, 5, 3 }, input1);
-	}
+}
 ```
 Given a test that is not symmetrical, however, the function will fail. For example, in the following test reverseInPlace incorrectly returns { 3, 5, 7 }
 ```
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input1 = { 3, 5, 7 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 7, 5, 3 }, input1);
-	}
+}
  ```
