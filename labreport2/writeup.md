@@ -16,3 +16,14 @@ Example of code running:
 
 In the above example, the method handleRequest is called again. The difference between this and the last one is that the returnedString is already "Hello\n" to start since it was changed the last time the method was called. Using the same logic as the previous example, the string is modified to be "Hello\nThis test was a huge success\n"
 
+
+The next part of the lab was to show one of the buggy codes that we fixed. I have chosen the following broken code because it was similar to a problem on my CSE12 quiz.
+'''
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+       newArray[arr.length - i - 1] = arr[i];
+    }
+    return arr;
+  }
+'''
