@@ -47,3 +47,6 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 7, 5, 3 }, input1);
 }
  ```
+Below is a picture of JUnit running locally and showing both tests I explained:
+
+![Image](tests.png)
