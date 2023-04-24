@@ -29,7 +29,7 @@ The next part of the lab was to show one of the buggy codes that we fixed. I hav
   }
 ```
 
-This code does not work because it reverses the array twice by iterating over the entire length of the list and flipping the elements continuously. Hence, the following tester will pass despite the bug due to it being symmetrical.
+This code does not work because it contains a bug that reverses the array twice by iterating over the entire length of the list and flipping the elements continuously. Hence, the following tester will pass despite the bug due to it being symmetrical.
 ```
 @Test 
 public void testReverseInPlace() {
@@ -47,6 +47,27 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 7, 5, 3 }, input1);
 }
  ```
-Below is a picture of JUnit running locally and showing both tests I explained:
+Below is a picture of JUnit running locally and showing both tests I explained, the symptom is that it fails for array { 3, 5, 7 }:
 
 ![Image](tests.png)
+
+Buggy code:
+```
+ static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+Fixed code (only flip list once by stopping halfway through):
+```
+ static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+<h2>Part Three</h2>
+My main takeaway from this assignment was all of the cool markdown features such as adding block code and making large headers. I had already done most of the things required in this lab and lab report but making a good looking markdown page was something I had not yet done. I especially liked the code blocks as they are way more efficient than adding screenshots.
