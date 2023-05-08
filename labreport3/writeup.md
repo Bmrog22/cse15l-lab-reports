@@ -30,5 +30,5 @@ changing the parameters to words that are not in the file results in nothing bei
 ![Image](command3.png)\
 *bash command*
 
-![Image](phrases1.png)\
+![Image](phrases.png)\
 *phrases.txt*
