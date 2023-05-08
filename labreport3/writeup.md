@@ -46,4 +46,8 @@ sources used: grep --help
 
 <h3>-m</h3>
 
--m is helpful if there are a large amount of files containing the same phrase, it stops returning files after a specified number of attempts.
+-m is helpful if there are a large amount of lines containing the same phrase, it stops returning lines after a specified number of returns.
+
+![Image](command7.png)
+
+![Image](command8.png)
