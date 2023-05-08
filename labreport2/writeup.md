@@ -49,7 +49,7 @@ public void testReverseInPlace() {
  ```
 Below is a picture of JUnit running locally and showing both tests I explained, the symptom is that it fails for array { 3, 5, 7 }:
 
-![Image](tests.png)
+![Image](updatedJunit.png)
 
 Buggy code:
 ```
