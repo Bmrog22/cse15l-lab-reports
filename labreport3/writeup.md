@@ -53,3 +53,5 @@ prints first 5
 
 prints max of 10, not necessarily 10
 ![Image](command8.png)
+
+sources used: chatGPT, grep --help
