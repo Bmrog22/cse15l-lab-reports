@@ -42,3 +42,4 @@ files are very large, so only one doesn't contain the letter z
 files are very large, but still a few don't contain "in a"
 ![Image](command6.png)
 
+sources used: grep --help
