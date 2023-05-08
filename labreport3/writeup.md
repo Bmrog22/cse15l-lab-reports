@@ -43,3 +43,7 @@ files are very large, but still a few don't contain "in a"
 ![Image](command6.png)
 
 sources used: grep --help
+
+<h3>-m</h3>
+
+-m is helpful if there are a large amount of files containing the same phrase, it stops returning files after a specified number of attempts.
