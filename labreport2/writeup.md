@@ -4,13 +4,13 @@ For this lab report, I had to make a server called StringSearch that would accep
 
 Here is the code that I used to create a server:
 
-![Image](StringSearchCode.png)
+![Image](updatedStringSearch.png)
 
 Example of code running:
 
 ![Image](Test1.png)
 
-In the above example, the method handleRequest is called. It is called with the argument add-message?s=Hello, which is important because this is the way the url must be written in order to print Hello. The field returnedString is updated to be "Hello\n", as in accordance with the add-message specification in the path.
+In the above example, the method handleRequest is called. It is called with the argument add-message?s=Hello, which is important because this is the way the url must be written in order to print Hello. The field returnedString is updated to be "Hello\n", as in accordance with the add-message specification in the path. .getPath() will return 
 
 Example of code running:
 
@@ -63,7 +63,7 @@ Buggy code:
 Fixed code (only flip list once by stopping halfway through):
 ```
  static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
+    for(int i = 0; i < arr.length/2; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
   }
