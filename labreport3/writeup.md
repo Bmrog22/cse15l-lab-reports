@@ -15,7 +15,7 @@ The command I will be researching is grep. The method I will be using to find al
 
 changing the parameters to words that are not in the file results in nothing being in the file, as shown below
 
-![Image](command1.png)
+![Image](command2.png)
 *bash command*
 
 ![Image](phrases2.png) 
