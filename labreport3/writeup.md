@@ -5,21 +5,38 @@ The command I will be researching is grep. The method I will be using to find al
 -f takes in two file names as parameters, and essentially searches for each line of file one in file two using grep. You can use this to search for a large amount of phrases at once, as I do here:
 
 ![Image](command1.png)
+
 *bash command*
 
 ![Image](phrases.png) 
+
 *phrases.txt*
 
 ![Image](output1.png)
+
 *f-output.txt*
 
 changing the parameters to words that are not in the file results in nothing being in the file, as shown below
 
 ![Image](command2.png)
+
 *bash command*
 
 ![Image](phrases2.png) 
+
 *phrases.txt*
 
 ![Image](output2.png)
+
 *f-output.txt*
+
+<h3>-l</h3>
+-l outputs the names of the files that have the search words in them. For example, using l in combination with -f as in the prior example:
+
+![Image](command3.png)
+
+*bash command*
+
+![Image](phrases1.png) 
+
+*phrases.txt*
