@@ -10,7 +10,7 @@ Example of code running:
 
 ![Image](Test1.png)
 
-In the above example, the method handleRequest is called. It is called with the argument add-message?s=Hello, which is important because this is the way the url must be written in order to print Hello. The field returnedString is updated to be "Hello\n", as in accordance with the add-message specification in the path. .getPath() will return 
+In the above example, the method handleRequest is called. It is called with the argument add-message?s=Hello, which is important because this is the way the url must be written in order to print Hello. The field returnedString is updated to be "Hello\n", as in accordance with the add-message specification in the path. .getPath() will return the path at the end of the URI if there is one or null if there is not. .getQuery() returns the query after the question mark. To start the server, the port number is passed as a paramter.
 
 Example of code running:
 
