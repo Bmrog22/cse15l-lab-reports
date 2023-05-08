@@ -31,4 +31,10 @@ changing the parameters to words that are not in the file results in nothing bei
 *bash command*
 
 ![Image](phrases.png)\
-*phrases.txt*
+*phrases.txt*\
+
+-l can also be used by itself, such as here where I search through all biomed to find the ones that mention ribosomes
+
+![Image](command4.png)\
+*bash command*
+
