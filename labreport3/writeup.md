@@ -48,6 +48,8 @@ sources used: grep --help
 
 -m is helpful if there are a large amount of lines containing the same phrase, it stops returning lines after a specified number of returns.
 
+prints first 5
 ![Image](command7.png)
 
+prints max of 10, not necessarily 10
 ![Image](command8.png)
