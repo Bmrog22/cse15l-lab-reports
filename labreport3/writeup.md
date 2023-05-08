@@ -12,3 +12,14 @@ The command I will be researching is grep. The method I will be using to find al
 
 ![Image](output1.png)
 *f-output.txt*
+
+changing the parameters to words that are not in the file results in nothing being in the file, as shown below
+
+![Image](command1.png)
+*bash command*
+
+![Image](phrases2.png) 
+*phrases.txt*
+
+![Image](output2.png)
+*f-output.txt*
