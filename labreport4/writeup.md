@@ -28,7 +28,7 @@ What I did: I changed into the lab directory and then I used bash to run the tes
   
 Picture: 
   
-![Image](test1.png)
+![Image](Test1.png)
   
 <h3>Step 7</h3>
   
@@ -48,7 +48,7 @@ What I did: I reused the test command from earlier
   
 Picture: 
   
-![Image](test2.png)
+![Image](Test2.png)
   
 <h3>Step 9</h3>
   
