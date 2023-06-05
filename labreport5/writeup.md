@@ -14,7 +14,13 @@ Info needed:
 
 File structure: The code is in a folder by itself so you can just compile and run as normal using a bash script
 
-Contents of file: Switch ![Image](flawed.png) to ![Image](fixed.png)
+Contents of file: Switch 
+
+![Image](flawed.png) 
+
+to 
+
+![Image](fixed.png)
 
 How the bug was triggered: just by running the file as normal
 
